@@ -1,5 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -29,8 +30,8 @@ public class Main {
 
 
             if (IMC < 18.5) {
-                System.out < 24.9){
                 System.out.println("¡Su peso es normal");
+
             }else if (IMC < 25-26.9){
                 System.out.println("¡Sobrepeso en grado II!");
             }else if (IMC < 27-29.9){
